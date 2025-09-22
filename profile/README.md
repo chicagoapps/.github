@@ -1,4 +1,6 @@
-# Cook County Apps
+# Chicago Illinois [Cook County] Apps
+
+https://chicagoapps.com
 
 > Civic Technology for Cook County
 
