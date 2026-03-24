@@ -1,51 +1,34 @@
-# Chicago Illinois [Cook County] Apps
+# ChicagoApps
 
-https://chicagoapps.com
+**Legal technology and financial forensics for Cook County.**
 
-> Civic Technology for Cook County
+Specialized applications for litigation support, case management, and financial analysis -- built on ChittyOS infrastructure and deployed for active use in Cook County Circuit Court proceedings.
 
-Digital services and applications for Cook County government and residents
+## Projects
 
-## Focus Areas
+| Project | What It Does |
+|---------|-------------|
+| [**ChittyCases**](https://github.com/chicagoapps/chittycases) | Case tracking and litigation management with AI-powered research, court scraping, and petition generation |
+| [**ChittyTrace**](https://github.com/chicagoapps/chittytrace) | AI-powered financial forensics -- transaction tracing, pattern detection, and court-ready evidence bundles |
+| [**Contradiction Engine**](https://github.com/chicagoapps/chittypro-contradictionengine) | Automated document contradiction detection with court-valid evidence output |
+| [**LegalLink**](https://github.com/chicagoapps/chittypro-legallink) | Legal case management platform with AI analytics and financial tracking |
+| [**CreditRep**](https://github.com/chicagoapps/chittypro-credit) | Credit reporting and dispute management |
 
-- **Civic Technology**
-- **Government Services**
-- **Public Access**
-- **Digital Transformation**
+## Focus
 
-## Our Repositories
+- Cook County Circuit Court docket tracking and automation
+- Evidence processing pipelines (ChittyEvidence integration)
+- Financial forensics and transaction analysis
+- AI-assisted legal document generation
+- Court-compliant document formatting
 
-Explore our projects organized by purpose and technology:
+## Stack
 
-### 🔍 Discover Projects
-
-- **By Language**: Use repository topics to filter by programming language
-- **By Purpose**: Look for repositories tagged with specific use cases
-- **By Status**: Active development vs. archived projects
-
-### 🚀 Getting Started
-
-1. **Browse**: Check out our pinned repositories for key projects
-2. **Contribute**: See individual repository CONTRIBUTING.md files
-3. **Connect**: Reach out via repository issues or discussions
-
-## Community
-
-- **Issues**: Report bugs and request features in individual repositories
-- **Discussions**: Join conversations in repository discussion sections
-- **Contributing**: We welcome contributions! See our contribution guidelines
-
-## Standards
-
-All our repositories follow consistent standards:
-
-- ✅ Clear documentation (README, CONTRIBUTING, LICENSE)
-- ✅ Proper tagging and descriptions  
-- ✅ Code quality practices
-- ✅ Community guidelines
+- **Backend**: Python (Flask) + TypeScript (Cloudflare Workers)
+- **Data**: Neon PostgreSQL, Cook County Clerk scraping
+- **AI**: OpenAI, Anthropic, Cloudflare Workers AI
+- **Auth**: ChittyAuth with ChittyID entity ontology
 
 ---
 
-**Building quality software that makes a difference** ✨
-
-*This organization is part of the broader Chitty ecosystem of technology solutions.*
+Part of the [ChittyOS ecosystem](https://github.com/chittyos) · [chicagoapps.com](https://chicagoapps.com)
